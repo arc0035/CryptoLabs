@@ -1,0 +1,12 @@
+{
+  "name": "CryptoLabs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/arc0035/CryptoLabs.git",
+  "author": "masonhunk <aoronchu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.6.9",
+    "mathjs": "^11.0.1"
+  }
+}
