@@ -1,12 +1,11 @@
 const crypto = require('crypto');
 const math = require('mathjs');
 
-const safeBits = 5;
 //质数p
-let p = Number(crypto.generatePrimeSync(safeBits, {bigint: true})); // 49597n
+let p = Number(crypto.generatePrimeSync(12, {bigint: true})); // 49597n
 console.log(`p:${p}`);
 //质数q
-let q = Number(crypto.generatePrimeSync(safeBits, {bigint: true})); // 49597n
+let q = Number(crypto.generatePrimeSync(13, {bigint: true})); // 49597n
 console.log(`q:${q}`);
 //模N
 let N = p * q;
